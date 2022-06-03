@@ -21,7 +21,7 @@ body{
     'piedepagina';
    
     
-    background-color: rgb(197, 196, 196);
+    background-color: rgba(211, 209, 209, 0.842);
     
     
 }
@@ -32,12 +32,14 @@ main{
 
 /*Padrenav*/
 
-
+button{
+    color: blue;
+}
 .dropdown{
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 3px;
-    color: blue;
+    
     
 }
 
