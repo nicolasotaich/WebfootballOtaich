@@ -31,10 +31,20 @@ main{
 }
 
 /*Padrenav*/
+
+
+.dropdown{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    color: blue;
+    
+}
+
 .navpadre {
-    float: right;
-    margin-right: 5%;
-    margin-left: 5%;
+    float: left;
+    color: rgba(3, 3, 95, 0.801);
+    
     
        
     
@@ -46,7 +56,7 @@ main{
     font-style:normal;
     font-weight: bold;
     color: rgb(3, 3, 77);
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-left: 5px;
     margin-right: 5px;
     padding-left: 20px;
