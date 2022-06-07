@@ -31,41 +31,32 @@ grid-area: cuerpo;
 
 /*Padrenav*/
 
+.navbar-brand{
+    color: rgb(6, 6, 134);
+    font-size: 2rem;
+    font-weight: bold;
 
-
-.dropdown{
-padding-top: 3px;
-padding-bottom: 3px;
-padding-left: 3px;
-
-
+    
 }
 
-.navpadre {
-float: left;
-color: rgba(3, 3, 95, 0.801);
-
-
-   
+.navbar-brand:hover{
+    color: rgb(139, 4, 4);
 
 }
+.nav-link{
+    color: rgb(5, 5, 112);
+    font-size: 1rem;
+    font-weight: bold;
+  
+}
+.nav-link:hover{
+    color: rgb(95, 3, 3);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 /*Navegacion*/  
-.nav{
-display: inline-block;
-list-style-type:none;
-font-style:normal;
-font-weight: bold;
-color: rgb(3, 3, 77);
-font-size: 1rem;
 
-margin-right: 5px;
-padding-left: 20px;
-padding-left: 20px;
-
-
-
-
-}
 /* titulo*/
 .titulo{
 text-align:center;
@@ -175,6 +166,14 @@ background: linear-gradient(to left, rgba(0, 0, 139, 0.589) , rgba(0, 0, 139, 0.
    font-size: 2rem;
 
 }
+.titulo:hover{
+    text-align:center;
+    font-size: 2rem;
+    color: rgb(112, 4, 9);
+    
+    }
+
+
 p{
     font-size: 1rem;
     font-weight: bold;
@@ -193,15 +192,15 @@ h2{
      
 }
 .nav{
-    display: inline-block;
+    display: inline-flex;
     list-style-type:none;
     font-style:normal;
     font-weight: bold;
     color: rgb(3, 3, 77);
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     margin-left: 5px;
     margin-right: 5px;
-    padding-left: 20px;
+    padding-right: 20px;
     padding-left: 20px;
     
 }
@@ -220,6 +219,10 @@ h2{
     
     
 }
-
-    
+body{
+    display: grid;
+    grid-area: auto;
 }
+
+}
+
