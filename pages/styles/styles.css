@@ -27,6 +27,14 @@ background-color: rgba(211, 209, 209, 0.842);
 
 main{
 grid-area: cuerpo;
+border-right:solid 5px darkred;
+border-left: solid 5px darkred;
+border-top: solid 5px darkblue;
+border-bottom: solid 5px darkblue;
+margin-bottom: 3px;
+margin-top: 3px;
+margin-left: 3px;
+margin-right: 3px;
 }
 
 /*Padrenav*/
@@ -128,7 +136,7 @@ font-size: 2rem;
 
 /*Cuestionario de aplicacion*/
 fieldset{
-background-color: rgba(139, 0, 0, 0.5);
+background-color: rgba(139, 3, 3, 0.562);
 color: rgba(4, 4, 172, 0.753);
 font-weight:bolder;
 margin-top: 5px;
