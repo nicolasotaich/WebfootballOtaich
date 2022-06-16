@@ -19,22 +19,25 @@ header {
         .navbar-brand {
         color: map-get($navlink, color);
         font-size: 2rem;
-        font-weight: bold; 
+        font-weight: map-get($navlink,weight);
       
             &:hover {
-            color: map-get($navlink, hovercolor);  
+                @extend .nav-brand;
+                color: map-get($navlink, hovercolor);
+
         }
             }
 
         .nav-link {
+            
             color: map-get($navlink, color);
             font-size: 1rem;
             font-weight: map-get($navlink,weight);
           
             &:hover {
                 color: map-get($navlink, hovercolor);
-            font-size: 1.2rem;
-            font-weight: map-get($navlink,weight); }
+                font-size: 1.2rem;
+                font-weight: map-get($navlink,weight); }
         }
         
     }
@@ -102,12 +105,16 @@ header {
   
   
   /*Foto del index*/
+  @mixin sizes($width, $height) {
+    height: $width;
+    width: $height;
+    
+  }
   .fotoindex {
     background-image: url(https://www.monederosmart.com/wp-content/uploads/2020/03/44328457_s.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    width: auto;
+    @include sizes(600px, auto)
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 5px;
