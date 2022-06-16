@@ -9,7 +9,7 @@ header {
   margin-right: 5px;
   /* NAV */ }
   header .navbar-brand {
-    color: #060686;
+    color: #050570;
     font-size: 2rem;
     font-weight: bold; }
     header .navbar-brand:hover {
@@ -19,7 +19,7 @@ header {
     font-size: 1rem;
     font-weight: bold; }
     header .nav-link:hover {
-      color: #5f0303;
+      color: #8b0404;
       font-size: 1.2rem;
       font-weight: bold; }
 
@@ -29,6 +29,7 @@ body {
   grid-template-areas: 'cabecera' 'cuerpo' 'piedepagina';
   background-color: rgba(211, 209, 209, 0.842); }
 
+/*MAIN*/
 main {
   grid-area: cuerpo;
   border-right: solid 5px darkred;
@@ -38,21 +39,16 @@ main {
   margin-bottom: 3px;
   margin-top: 3px;
   margin-left: 3px;
-  margin-right: 3px;
-  /* titulo*/
-  /*FOTO PLANTEL*/
-  /*CUESTIONARIO APLICACION*/
-  /*label*/
-  /*CUESTIONARIO APLICACION*/ }
+  margin-right: 3px; }
   main .titulo {
     text-align: center;
     font-size: 3.5rem;
-    color: #040466;
+    color: #050570;
     transition: font-color 2s; }
     main .titulo:hover {
       text-align: center;
       font-size: 3.5rem;
-      color: #700409; }
+      color: #8b0404; }
   main p {
     font-size: 2rem;
     font-weight: bold;
@@ -63,11 +59,11 @@ main {
     margin-bottom: 5px;
     margin-left: 5px; }
   main .tituloApply {
-    color: #12127e;
+    color: #050570;
     font-size: 2rem; }
   main fieldset {
     background-color: rgba(139, 3, 3, 0.562);
-    color: rgba(4, 4, 172, 0.753);
+    color: #050570;
     font-weight: bolder;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -100,12 +96,12 @@ footer {
   margin-right: 3px;
   background: linear-gradient(to left, rgba(0, 0, 139, 0.589), rgba(0, 0, 139, 0.253)); }
   footer h2 {
-    color: darkblue;
+    color: #050570;
     size: 1.3rem;
     padding-left: 20px;
     font-size: 1.3rem; }
     footer h2:hover {
-      color: darkred;
+      color: #8b0404;
       size: 1.3rem;
       padding-left: 20px;
       font-size: 1.3rem; }
@@ -117,12 +113,12 @@ footer {
   .titulo {
     text-align: center;
     font-size: 2rem;
-    color: #040466;
+    color: #050570;
     transition: font-color 2s; }
     .titulo:hover {
       text-align: center;
       font-size: 2rem;
-      color: #700409; }
+      color: #8b0404; }
   p {
     font-size: 1rem;
     font-weight: bold;
@@ -130,7 +126,7 @@ footer {
   .foo {
     font-size: 0.7rem; }
   h2 {
-    color: darkblue;
+    color: #050570;
     size: 0.5rem;
     padding-left: 20px;
     font-size: 0.5rem; }
