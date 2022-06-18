@@ -12,7 +12,7 @@ header {
    border-bottom: solid 5px darkred; 
    border-left: solid 5px darkblue;
    border-right: solid 5px darkblue;
-    background: linear-gradient(rgba(139, 0, 0, 0.61), rgba(139, 0, 0, 0.185));
+    background: linear-gradient(rgba(189, 54, 54, 0.479), rgba(139, 0, 0, 0.185));
     margin-left: 5px;
     margin-right: 5px; 
        /* NAV */
@@ -22,8 +22,9 @@ header {
         font-weight: map-get($navlink,weight);
       
             &:hover {
-                @extend .nav-brand;
+                font-size: 2rem;
                 color: map-get($navlink, hovercolor);
+                font-weight: map-get($navlink,weight);
 
         }
             }
@@ -85,6 +86,14 @@ header {
                 margin-top: 5px;
                 margin-bottom: 5px;
                 margin-left: 5px; }
+        .plantel2{
+                width: 100%;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                margin-left: 5px; 
+                
+              }
+                
        
         
         .tituloApply {
@@ -93,7 +102,7 @@ header {
             
                    
         fieldset {
-                    background-color: rgba(139, 3, 3, 0.562);
+                    background-color: rgba(165, 63, 63, 0.562);
                     color: map-get($navlink, color);
                     font-weight: bolder;
                     margin-top: 5px;
@@ -123,6 +132,7 @@ header {
   
   /*footer*/
   footer {
+    list-style-type: none;
     grid-area: piedepagina;
     border-top: solid 5px darkred;
     border-bottom: solid 5px darkred;
@@ -132,7 +142,7 @@ header {
     margin-top: 3px;
     margin-left: 3px;
     margin-right: 3px;
-    background: linear-gradient(to left, rgba(0, 0, 139, 0.589), rgba(0, 0, 139, 0.253)); 
+    background: linear-gradient(to left, rgba(0, 0, 139, 0.589), rgba(92, 92, 184, 0.253)); 
     h2 {
         color: map-get($navlink, color);
         size: 1.3rem;
@@ -144,8 +154,13 @@ header {
         size: 1.3rem;
         padding-left: 20px;
         font-size: 1.3rem; }
-        .foo {
-            font-size: 1rem; }
+        
+        
+    }
+    .foott {
+      font-size: 1rem; 
+      list-style-type: none;
+     
     }
 
 }

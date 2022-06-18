@@ -4,7 +4,7 @@ header {
   border-bottom: solid 5px darkred;
   border-left: solid 5px darkblue;
   border-right: solid 5px darkblue;
-  background: linear-gradient(rgba(139, 0, 0, 0.61), rgba(139, 0, 0, 0.185));
+  background: linear-gradient(rgba(189, 54, 54, 0.479), rgba(139, 0, 0, 0.185));
   margin-left: 5px;
   margin-right: 5px;
   /* NAV */ }
@@ -13,7 +13,9 @@ header {
     font-size: 2rem;
     font-weight: bold; }
     header .navbar-brand:hover {
-      color: #8b0404; }
+      font-size: 2rem;
+      color: #8b0404;
+      font-weight: bold; }
   header .nav-link {
     color: #050570;
     font-size: 1rem;
@@ -58,11 +60,16 @@ main {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 5px; }
+  main .plantel2 {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px; }
   main .tituloApply {
     color: #050570;
     font-size: 2rem; }
   main fieldset {
-    background-color: rgba(139, 3, 3, 0.562);
+    background-color: rgba(165, 63, 63, 0.562);
     color: #050570;
     font-weight: bolder;
     margin-top: 5px;
@@ -85,6 +92,7 @@ main {
 
 /*footer*/
 footer {
+  list-style-type: none;
   grid-area: piedepagina;
   border-top: solid 5px darkred;
   border-bottom: solid 5px darkred;
@@ -94,7 +102,7 @@ footer {
   margin-top: 3px;
   margin-left: 3px;
   margin-right: 3px;
-  background: linear-gradient(to left, rgba(0, 0, 139, 0.589), rgba(0, 0, 139, 0.253)); }
+  background: linear-gradient(to left, rgba(0, 0, 139, 0.589), rgba(92, 92, 184, 0.253)); }
   footer h2 {
     color: #050570;
     size: 1.3rem;
@@ -105,8 +113,9 @@ footer {
       size: 1.3rem;
       padding-left: 20px;
       font-size: 1.3rem; }
-    footer h2 .foo {
-      font-size: 1rem; }
+  footer .foott {
+    font-size: 1rem;
+    list-style-type: none; }
 
 /*Mis media queries*/
 @media only screen and (min-width: 320px) and (max-width: 756px) {
