@@ -63,6 +63,7 @@ header {
     margin-top: 3px;
     margin-left: 3px;
     margin-right: 3px; 
+    background: linear-gradient(to right, rgba(139, 0, 0, 0.295), rgba(0, 0, 139, 0.349));
     
     
         .titulo {
@@ -82,25 +83,47 @@ header {
             margin-left: 5px; }
         
         .plantel {
-                width: 100%;
+                width: 98%;
                 margin-top: 5px;
                 margin-bottom: 5px;
-                margin-left: 5px; }
-        .plantel2{
-                width: 100%;
-                margin-top: 5px;
-                margin-bottom: 5px;
-                margin-left: 5px; 
-                
-              }
-                
-       
+                margin-left: 15px; 
+                          
+        }
+        .nombreplantel{
+                    font-size: 1.5rem;
+                    color: rgb(6, 6, 82);
+                    margin-left: 20px;
+                    margin-right: 15px;
+        }
+         .proyecto2022 {
+                      width: 98%;
+                      margin-left: 20px;
+                      margin-right: 10px;
+                      margin-bottom: 20px;
+         }       
+         .proyect2022 {
+          margin-left: 15px;
+          margin-right: 15px;
+         }
         
         .tituloApply {
                     color: map-get($navlink, color);
                     font-size: 2rem; }
-            
-                   
+        .historia {
+                  font-size: 1.5rem;
+                  color: darkred;
+                  margin-left: 15px;
+                  margin-right: 15px;
+                       
+
+         }   
+         .proyectooyq {
+                        font-size: 1.5rem;
+                        color: darkred;
+         }
+         
+         
+         
         fieldset {
                     background-color: rgba(165, 63, 63, 0.562);
                     color: map-get($navlink, color);
