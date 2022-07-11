@@ -135,7 +135,14 @@ header {
                     margin-left: 5px;
                     margin-right: 5px;
                     padding-left: 2px; }
+
+          
+                  
+        }
+        .aplicarmain {
+                      height: 600px;
 }
+
   
   
   /*Foto del index*/
@@ -150,7 +157,7 @@ header {
     background-size: cover;
     @include sizes(600px, auto);
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px; }
   
