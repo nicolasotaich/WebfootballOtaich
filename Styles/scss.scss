@@ -141,8 +141,24 @@ header {
                   
         }
         .aplicarmain {
-                      height: 600px;
+          height: 600px;
 }
+      .footerapl{
+        list-style-type: none;
+    grid-area: piedepagina;
+    border-top: solid 5px darkred;
+    border-bottom: solid 5px darkred;
+    border-left: solid 5px darkblue;
+    border-right: solid 5px darkblue;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background: linear-gradient(to left, rgba(0, 0, 139, 0.589), rgba(92, 92, 184, 0.253)); 
+    position: absolute;
+    bottom:0 ;
+    width: 100%;
+      }
 
   
   
@@ -250,19 +266,23 @@ header {
     body {
       display: grid;
       grid-area: auto; } 
+
+      .footerapl{
+        list-style-type: none;
+    grid-area: piedepagina;
+    border-top: solid 5px darkred;
+    border-bottom: solid 5px darkred;
+    border-left: solid 5px darkblue;
+    border-right: solid 5px darkblue;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background: linear-gradient(to left, rgba(0, 0, 139, 0.589), rgba(92, 92, 184, 0.253)); 
+    
+      }
+      .aplicarmain {
+        height: 400px;
+}
     }
-    .footerapl {
-      list-style-type: none;
-      grid-area: piedepagina;
-      border-top: solid 5px darkred;
-      border-bottom: solid 5px darkred;
-      border-left: solid 5px darkblue;
-      border-right: solid 5px darkblue;
-      margin-bottom: 3px;
-      margin-top: 3px;
-      margin-left: 3px;
-      margin-right: 3px;
-      background: linear-gradient(to left, rgba(0, 0, 139, 0.589), rgba(92, 92, 184, 0.253)); 
-      
-      width: 100%;
-    }
+    
